@@ -1,0 +1,81 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+*.env
+*.env.local
+*.env.development
+*.env.testing
+*.env.production
+*.env.staging
+
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# storybook
+/storybook-static
+package-lock.json
+
+# themes
+/public/themes/*
+
+.idea
+
+# log
+yarn-error.log
+
+# env
+.env
+
+# pwa
+/public/precache.*.*.js
+/public/sw.js
+/public/service-worker.js
+/public/workbox-*.js
+/public/worker-*.js
+/public/fallback-*.js
+/public/precache.*.*.js.map
+/public/sw.js.map
+/public/workbox-*.js.map
+/public/worker-*.js.map
+/public/fallback-*.js
+/yarn.lock
+/package-lock.json
+/pnpm-lock.yaml
+
+.idea
+
+
+.dockerignore
+docker-compose.yml
+Dockerfile
+
+launch.json
